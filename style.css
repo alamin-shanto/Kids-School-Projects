@@ -1,0 +1,44 @@
+/* fonts set up */
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared fonts sizes*/
+
+/* shared colours */
+
+.white {
+  color: #f7f7f7;
+}
+
+.sky-blue {
+  color: #01acfd;
+}
+
+.orange {
+  color: #fea301;
+}
+
+.black {
+  color: #111111;
+}
+
+/* shared designs */
+
+/* header section designs */
+
+/* main section designs */
+
+/* section 1 designs */
+
+/* section 2 designs */
+
+/* section 3 designs */
+
+/* footer section designs */
+
+/* media queries for small devices */
