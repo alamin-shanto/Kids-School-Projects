@@ -31,9 +31,19 @@ body {
   font-size: 2.875rem;
 }
 
+.bold42 {
+  font-weight: 700;
+  font-size: 2.625rem;
+}
+
 .bold32 {
   font-weight: 700;
   font-size: 2rem;
+}
+
+.bold26 {
+  font-weight: 700;
+  font-size: 1.625rem;
 }
 
 .bold24 {
@@ -370,17 +380,13 @@ img.section1-img {
 /* section 3 designs */
 .section3 {
   text-align: center;
-  background-image: url(./assets/bg.png);
-  background: linear-gradient(
-    to bottom,
-    #f7f7f7 0%,
-    rgba(254, 163, 1, 0.3) 100%
-  );
+  background: url(./assets/bg.png),
+    linear-gradient(to bottom, #f7f7f7 0%, rgba(254, 163, 1, 0.3) 100%);
 }
 
 .section3-container {
   max-width: 1440px;
-  margin: 4rem auto;
+  margin: 0 auto;
 }
 
 .section3-title {
@@ -502,6 +508,54 @@ img.iamge-div2 {
 .footer-parent-div {
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 11rem 8.75rem;
+}
+
+.footer-left-div {
+  max-width: 25rem;
+}
+
+.footer-left-div-header {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2.25rem;
+}
+
+.footer-left-div-header h5 {
+  display: inline;
+}
+
+.footer-center-div {
+  max-width: 9.75rem;
+}
+
+.footer-center-div-title {
+  margin-bottom: 2rem;
+}
+
+.footer-nav li {
+  list-style: none;
+  margin-bottom: 1.25rem;
+}
+
+.footer-navlinks a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-right-div {
+  max-width: 12rem;
+}
+
+.footer-right-div-title {
+  margin-bottom: 2rem;
+}
+
+.footer-right-div-images {
+  display: flex;
+  gap: 0.75rem;
 }
 
 /* media queries for small devices */
@@ -590,5 +644,16 @@ img.iamge-div2 {
 
   .s3c2 {
     display: block;
+  }
+
+  /* footer section */
+  .footer-parent-div {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .footer-left-div,
+  .footer-center-div {
+    margin-bottom: 4rem;
   }
 }
